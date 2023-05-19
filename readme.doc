@@ -1,0 +1,7 @@
+## Garafana very simple dashboard with JSON API source!
+```js 
+to run the project
+docker-compose up -d
+```
+API to test:
+https://corona.lmao.ninja/v2/all

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  grafana:
+    image: grafana/grafana:9.5.2
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./provisioning:/etc/grafana/provisioning
+      - ./plugins:/var/lib/grafana/plugins
+
+volumes:
+  grafana-data:
+

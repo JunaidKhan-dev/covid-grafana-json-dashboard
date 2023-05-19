@@ -1,0 +1,11 @@
+.DS*
+DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.log
+*.bak
+*.cache
+*.project
+node_modules/
